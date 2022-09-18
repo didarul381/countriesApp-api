@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Countries</title>
+   
+</head>
+<style>
+    .country img{
+        width: 200px;
+    }
+     .country{
+
+        border: 2px solid salmon;
+        background-color: aqua;
+        padding: 5px;
+        border-radius: 20px;
+    }
+
+    .countries{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 10px;
+    }
+    </style>
+
+
+<body>
+    <header>
+        <h1>Explore Countries.......</h1>
+    </header>
+    <main>
+       <div id="Countries" class="countries"></div>
+    </main>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
